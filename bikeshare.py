@@ -23,7 +23,7 @@ def input_filter(printed_input, entered_list):
             return choice.lower()
             break
         print('Whoops! Make sure you enter the {}.'.format(entered_list))
-        
+
 def select_set(data):
     """
     User chooses data set to input
@@ -49,7 +49,7 @@ def select_set(data):
                     return days[day]
                     break
                 print('Whoops! Make sure to enter an integer for the day (examples: 1 = Sunday, 3 = Tuesday)')
-                
+
 
 def get_filters():
     """
@@ -83,8 +83,8 @@ def get_filters():
             break
         else:
             print('Whoops! Make sure to input month, day, both, or no filter.')
-            
-       
+
+
     print('-'*40)
     return city, month, day
 
@@ -118,7 +118,7 @@ def load_data(city, month, day):
     if days != 'all':
         # filter by the day of week to make a new dataframe
         df = df[df['day_of_week'] == day.title()]
-    
+
 
     return df
 
@@ -143,8 +143,8 @@ def time_stats(df):
     df['hour'] = df['Start Time'].dt.hour
     popular_hour = df['hour'].mode()[0]
     print('Most popular hour for rentals: {}'.format(popular_hour))
-   
 
+    #Prints the total processing time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -167,7 +167,7 @@ def station_stats(df):
     df['combination'] = df['Start Station'] + ' to ' + df['End Station']
     common_combo = df['combination'].mode()[0]
     print('Most popular combination of starting and ending stations: {}'.format(common_combo))
-
+    #Prints the total processing time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -181,12 +181,12 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     total_travel = df['Trip Duration'].sum()
     print('Total travel time: {}'.format(total_travel))
-    
+
     # TO DO: display mean travel time
     avg_travel_time = df['Trip Duration'].mean()
     print('Average travel time: {}'.format(avg_travel_time))
-    
 
+    #Prints the total processing time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -219,7 +219,7 @@ def user_stats(df):
         print('Most common birth year: {}'.format(common))
     else:
         print('There\'s no birth year info for this city.')
-
+    #Prints the total processing time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
