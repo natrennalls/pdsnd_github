@@ -14,9 +14,9 @@ Feel free to download the files from here: https://drive.google.com/file/d/1aRaZ
 ### Credits
 Python Documentation for lesser known functions to help with process
 Pandas Documentation for see above
+
 Lectures within the Data Science Programming course from Udacity for remediation and education
-Programiz for the occasional stumbling blocks
-Stackoverflow for see above
+Stackoverflow for the occasional brick wall that I couldn't get around
 Bitbucket for see above
 Codewars for practice
 All starter code, instructions and datasets were provided by Udacity
