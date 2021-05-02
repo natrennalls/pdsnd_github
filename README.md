@@ -12,9 +12,11 @@ where the user chooses what data they wish to view, and thru what filter they wa
 Feel free to download the files from here: https://drive.google.com/file/d/1aRaZK_orFm7EjP8nHImcBHF5pAF8Xv5z/view?usp=sharing
 
 ### Credits
-Python Documentation
-Pandas Documentation
-Lectures within the Data Science Programming course from Udacity
-Programiz
-Stackoverflow
+Python Documentation for lesser known functions to help with process
+Pandas Documentation for see above
+Lectures within the Data Science Programming course from Udacity for remediation and education
+Programiz for the occasional stumbling blocks
+Stackoverflow for see above
+Bitbucket for see above
+Codewars for practice
 All starter code, instructions and datasets were provided by Udacity
