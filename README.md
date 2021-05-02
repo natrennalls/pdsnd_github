@@ -2,7 +2,7 @@
 May 2, 2021
 
 ### Project Title
-Bikeshare Project
+Bikeshare Data Project
 
 ### Description
 Uses Python to understand U.S. bikeshare data from three cities. Calculates statistics and builds an interactive environment
