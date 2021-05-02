@@ -175,7 +175,9 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """
+    Displays statistics on bikeshare users.
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -207,6 +209,10 @@ def user_stats(df):
     print('-'*40)
 
 def data(df):
+    """
+    Asks the user to display the raw data of their query
+    """
+    
     raw_data = 0
     while True:
         answer = input('Do you want to see the raw data? Yes or No').lower()
